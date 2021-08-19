@@ -7,5 +7,5 @@ y = music_data['genre'] #output data set
 
 model = DecisionTreeClassifier()
 model.fit(X, y)
-predictions = model.predict([ [26, 1], [29, 0] ])
+predictions = model.predict([ [26, 1], [29, 0] ]) # predicts the type of music for a 26 year old male (male represented by the number 1) and 29 year old female (female represented by the number 0)
 predictions
